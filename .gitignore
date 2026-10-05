@@ -1,0 +1,31 @@
+# Python
+.venv/
+venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/pnpm-lock.yaml
+frontend/pnpm-workspace.yaml
+.pnpm-store/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+
+# Local tooling and design drafts
+.report-tools/
+.superdesign/
+
+# OS and editor files
+.DS_Store
+.idea/
+*.swp
